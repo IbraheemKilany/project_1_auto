@@ -8,6 +8,6 @@ describe('aspaire test case', () => {
   it('to check language', () => {
     cy.visit('https://www.almosafer.com/en')
     cy.get('.cta__saudi') .click()
-    cy.get('html').should('have.attr','lang','ar')
+    cy.get('html').should('have.attr','lang','en')
   });
 })
